@@ -1,24 +1,14 @@
-#Tlegen Kamidollayev
+# Welcome to repository
 
-##Geography
+## C++ White belt
 
-I live in Boston, in the state of Massachussets, in the United States of America.
+This repository contains my solutions to tasks from [C++ course](https://www.coursera.org/learn/c-plus-plus-white/home/welcome)
+ 
+## Course description
 
-##Reading
+Tasks cover various introductory topic in C++ like functions, containers, algorithms, classes, operator overloading, exceptions, etc.
+BTW, course is taught in russian.
 
-Three of my favourite books are:
-- *Lord of the Rings* by J.R. Tolkien
-- *We* by Zamyatin
-- *Crime and Punishment* by F.Dostoyevskiy
-
-##Food
-
-Last night I dreamt about eating in these restaraunts:
-
-1. Ayva in Moscow
-2. Uzbechka in Almaty
-3. Pinni's in Billerica
-
-##Contact
+## Contact
 
 The best way to get in touch with me is [on facebook](https://www.facebook.com/tlegen.kamidollayev.9)
