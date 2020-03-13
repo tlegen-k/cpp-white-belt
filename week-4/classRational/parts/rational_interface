@@ -1,0 +1,66 @@
+#include <iostream>
+using namespace std;
+
+class Rational {
+public:
+    Rational() {
+        // Реализуйте конструктор по умолчанию
+    	num = 0;
+    	denom = 1;
+    }
+
+    Rational(int numerator, int denominator) {
+        // Реализуйте конструктор
+//    	cout << numerator << " " << denominator << endl;
+    	int a=abs(numerator);
+    	int b=abs(denominator);
+    	int gcd = 1;
+//    	cout << a << " " << b << endl;
+
+    	while (a>0 && b>0)
+    	{
+    		if (a>b)
+    		{
+    			a=a%b;
+    		}
+    		else
+    		{
+    			b=b%a;
+    		}
+    	}
+
+    	gcd = a+b;
+
+    	num = numerator/gcd;
+    	denom = denominator/gcd;
+
+    	if ((num < 0 && denom < 0) || (num > 0 && denom < 0))  {
+    		num = -num;
+    		denom = -denom;
+    	}
+    	else if (numerator==0){
+    		num = 0;
+    		denom = 1;
+
+    	}
+ /*   	cout << gcd << endl;
+    	cout << num << endl;
+    	cout << denom << endl;*/
+    }
+
+    int Numerator() const {
+        // Реализуйте этот метод
+    	return num;
+    }
+
+    int Denominator() const {
+        // Реализуйте этот метод
+    	return denom;
+    }
+
+private:
+    // Добавьте поля
+    int num;
+    int denom;
+};
+
