@@ -1,10 +1,3 @@
-/*
- * main.h
- *
- *  Created on: Nov 27, 2019
- *      Author: tlegen
- */
-
 #ifndef MAIN_H_
 #define MAIN_H_
 

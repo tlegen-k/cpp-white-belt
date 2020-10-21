@@ -1,10 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Jan 22, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <iostream>
 #include <exception>
 using namespace std;
@@ -109,7 +102,3 @@ int main() {
     cout << "OK" << endl;
     return 0;
 }
-
-
-
-

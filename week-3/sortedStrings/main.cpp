@@ -15,11 +15,6 @@ public:
   }
   vector<string> GetSortedStrings() {
 		sort(strings.begin(), strings.end());
-
-/*		for(auto& i : strings)
-		{
-			cout << i << " ";
-		} */
 		return strings;
     // получить набор из всех добавленных строк в отсортированном порядке
   }

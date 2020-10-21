@@ -1,10 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Jan 8, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <iomanip>
 #include <fstream>
 #include <string>
@@ -50,5 +43,3 @@ int main() {
 
 	return 0;
 }
-
-

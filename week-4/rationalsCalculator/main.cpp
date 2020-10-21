@@ -1,10 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Jan 22, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -171,9 +164,6 @@ int main() {
 			cout << (first / second) << endl;
 		}
 
-/*		cout << "First: " << first << endl;
-		cout << "Second: " << second << endl;
-		cout << "Sym: " << sym << endl; */
 	}
 	catch (invalid_argument&) {
 		cout << "Invalid argument" << endl;
@@ -193,6 +183,3 @@ int main() {
 
 	return 0;
 }
-
-
-

@@ -1,11 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Jan 7, 2020
- *      Author: tlegenkamidollayev
- */
-
-
 #include <iostream>
 #include <ostream>
 #include <fstream>
@@ -26,5 +18,3 @@ int main() {
 
 	return 0;
 }
-
-

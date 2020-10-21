@@ -51,17 +51,9 @@ vector<string> PalindromFilter(vector<string> words, int minLength)
 int main()
 {
 	vector<string> words;
-//	string word;
 	int minLength;
 	words = {"weew", "bro", "code"};
-//	words = { "abacaba", "aba"};
 	minLength = 4;
-//	cin >> minLength;
-
-/*	while (cin >> word && word != "-1")
-	{
-		words.push_back(word);
-	} */
 
 	PalindromFilter(words, minLength);
 }

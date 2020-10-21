@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Jan 20, 2020
- *      Author: tlegenkamidollayev
- */
 #include <iomanip>
 #include <iostream>
 using namespace std;
@@ -27,6 +21,3 @@ int main() {
 	  }
 	return 0;
 }
-
-
-

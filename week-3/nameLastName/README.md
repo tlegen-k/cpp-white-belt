@@ -1,19 +1,30 @@
-# Welcome to repository
-
 ## C++ White belt
+This repository contains my solutions to tasks from week 3 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
 
-This repository contains my solutions to tasks from [C++ course](https://www.coursera.org/learn/c-plus-plus-white/home/welcome)
- 
-## Course description
-This course is about introducing the C ++ programming language. You will learn how to use its basic constructions, create your own data types, break the program into classes and functions.
-At the end of the course, a final project awaits you: you can independently implement a simple data warehouse with the ability to add, delete and search.
+### Names and last names
+Implement a human class that maintains a person's history of changes to their last name and first name.
+```cpp
+class Person {
+public:
+  void ChangeFirstName(int year, const string& first_name) {
+    // добавить факт изменения имени на first_name в год year
+  }
+  void ChangeLastName(int year, const string& last_name) {
+    // добавить факт изменения фамилии на last_name в год year
+  }
+  string GetFullName(int year) {
+    // получить имя и фамилию по состоянию на конец года year
+  }
+private:
+  // приватные поля
+};
+```
+Consider that no more than one surname change and no more than one name change can occur each year. At the same time, over time, more and more facts from a person's past may be discovered, therefore, the years in successive calls to the ChangeLastName and ChangeFirstName methods are not required to increase.
 
-The course was developed by leading experts of Yandex and teachers of the School of Data Analysis. Behind them are the years of development of search services, advertising and infrastructure.
+It is guaranteed that all first and last names are non-empty.
 
-The course is part of the specialization "The Art of Development in Modern C ++".
-Tasks cover various introductory topic in C++ like functions, containers, algorithms, classes, operator overloading, exceptions, etc.
-BTW, course is taught in russian.
+The string returned by the GetFullName method must contain the person's first and last name, separated by a single space, as of the end of the given year.
 
-## Contact
-
-The best way to get in touch with me is [on facebook](https://www.facebook.com/tlegen.kamidollayev.9)
+- If no surname or first name changes have occurred by this year, return the "Incognito" string.
+- If there was a last name change for the given year, but there was no name change, return "last_name with unknown first name".
+- If there was a name change for the given year, but there was no last name change, return "first_name with unknown last name".

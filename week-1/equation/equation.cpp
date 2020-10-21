@@ -2,7 +2,8 @@
 #include <cmath>
 using namespace std;
 int main() {
-	//roots of equation A*x^2 + B*x + c =0//
+	//- Roots of equation A*x^2 + B*x + c =0
+	
 	double a, b, c;
 	cin >> a >> b >> c;
 	double x1,x2;

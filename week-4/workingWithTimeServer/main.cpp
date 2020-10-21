@@ -1,10 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Jan 23, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <iostream>
 #include <exception>
 #include <string>
@@ -49,6 +42,3 @@ int main() {
     }
     return 0;
 }
-
-
-

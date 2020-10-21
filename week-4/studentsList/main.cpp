@@ -1,10 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Jan 8, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <iostream>
 #include <vector>
 #include <string>
@@ -56,5 +49,3 @@ int main() {
 
 	return 0;
 }
-
-

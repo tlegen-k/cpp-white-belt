@@ -1,10 +1,3 @@
-/*
- * rational_eq_add_sub.cpp
- *
- *  Created on: Jan 16, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <iostream>
 #include <iomanip>
 #include <string>
